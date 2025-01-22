@@ -1,5 +1,6 @@
-
-
+//This is a very small variation on the guessing game proposed early in the online version of the  Rust Book
+//This version uses system time instead of the "rand" crate
+//As in use rand::Rng;
 use std::io;
 use std::cmp::Ordering;
 use std::time::{SystemTime, UNIX_EPOCH};
